@@ -27,19 +27,19 @@ Console.WriteLine("Введите B= ");
 double B = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите C= ");
 double C = double.Parse(Console.ReadLine());
-double max=A;
-if(A> max);
+double max = A;
+if (A > max) ;
 {
-    max=A;
+    max = A;
 }
-if(B> max)
+if (B > max)
 {
-     max=B;
+    max = B;
 }
 
-if(C> max)
+if (C > max)
 {
-     max=C;
+    max = C;
 }
 Console.WriteLine(max);
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
