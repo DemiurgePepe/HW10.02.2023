@@ -21,27 +21,27 @@
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
-// Console.WriteLine("Введите A= ");
-// double A = double.Parse(Console.ReadLine());
-// Console.WriteLine("Введите B= ");
-// double B = double.Parse(Console.ReadLine());
-// Console.WriteLine("Введите C= ");
-// double C = double.Parse(Console.ReadLine());
-// double max=0;
-// if(A> max);
-// {
-//     max=A;
-// }
-// if(B> max)
-// {
-//      max=B;
-// }
+Console.WriteLine("Введите A= ");
+double A = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите B= ");
+double B = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите C= ");
+double C = double.Parse(Console.ReadLine());
+double max=A;
+if(A> max);
+{
+    max=A;
+}
+if(B> max)
+{
+     max=B;
+}
 
-// if(C> max)
-// {
-//      max=C;
-// }
-// Console.WriteLine(max);
+if(C> max)
+{
+     max=C;
+}
+Console.WriteLine(max);
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
 // 4 -> да
@@ -61,7 +61,7 @@
 // 8 -> 2, 4, 6, 8
 // Console.WriteLine("Введите n= ");
 // int n = int.Parse(Console.ReadLine());
-// int index = 0;
+// int index = 2;
 // while(index<=n)
 // {
 //   Console.WriteLine(index);
