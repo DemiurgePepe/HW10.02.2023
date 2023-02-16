@@ -128,21 +128,21 @@
 //   index=index+2;
 // }
 
-//  9. Показать последнюю цифру трёхзначного числа
-Console.WriteLine("Введите n= ");
-int n = int.Parse(Console.ReadLine());
-if(n>999 || n<100)
-{
-    Console.WriteLine("Кривое число");
-}
-else
-{
-Console.WriteLine(n%100%10);
-}
+// //  9. Показать последнюю цифру трёхзначного числа
+// Console.WriteLine("Введите n= ");
+// int n = int.Parse(Console.ReadLine());
+// if(n>999 || n<100)
+// {
+//     Console.WriteLine("Кривое число или третьей цифры нет");
+// }
+// else
+// {
+// Console.WriteLine(n%100%10);
+// }
 // 10. Показать вторую цифру трёхзначного числа
 // Console.WriteLine("Введите n= ");
 // int n = int.Parse(Console.ReadLine());
-// if(n<1000 || n<100)
+// if(n>999 || n<100)
 // {
 //     Console.WriteLine("Кривое число");
 // }
